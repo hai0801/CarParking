@@ -20,7 +20,7 @@ import com.carparking.entities.TripEntitty;
 * 01-04-2020        HaiNV28            Create
 */
 /**
-* @author HaiNV28
+* @author Nguyen Van Hai
 *
 */
 public class TrimUtils {
