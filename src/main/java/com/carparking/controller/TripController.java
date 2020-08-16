@@ -47,7 +47,6 @@ public class TripController {
     @Autowired
     private TripService tripService;
     
-    /** The trip entitty. */
     @Autowired
     private TripEntitty tripEntitty;
 
