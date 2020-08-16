@@ -9,3 +9,4 @@ target/m2e-wtp/web-resources/META-INF/maven/hainv28/CarParking/pom.properties
 target/classes/com/carparking/entities/TripEntitty.class
 .classpath
 .classpath
+/bin/
