@@ -43,7 +43,7 @@ import com.carparking.service.TripService;
 @Controller
 public class TripController {
     
-    /** The trip service. */
+    
     @Autowired
     private TripService tripService;
     
