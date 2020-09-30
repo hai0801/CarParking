@@ -24,19 +24,20 @@ import main.java.com.carparking.entities.TripEntitty;
  */
 public class TrimUtils {
 
-	/**
-	 * Trim trip.
-	 *
-	 * @param trip the trip
-	 * @return the trip entitty
-	 */
-	public static TripEntitty trimTrip(TripEntitty trip) {
-		if (trip != null) {
-			trip.setDestination(StringUtils.trimToNull(trip.getDestination()));
-			trip.setDepartureTime(StringUtils.trimToNull(trip.getDepartureTime()));
-			trip.setDriver(StringUtils.trimToNull(trip.getDriver()));
-			trip.setCarType(StringUtils.trimToNull(trip.getCarType()));
-		}
-		return trip;
-	}
+  /**
+   * Trim trip.
+   *
+   * @param trip the trip
+   * @return the trip entitty
+   */
+  public static TripEntitty trimTrip(TripEntitty trip) {
+    if (trip != null) {
+      trip.setDestination(StringUtils.trimToNull(trip.getDestination()));
+      trip.setDepartureTime(StringUtils.trimToNull(trip.getDepartureTime()));
+      trip.setDriver(StringUtils.trimToNull(trip.getDriver()));
+      trip.setCarType(StringUtils.trimToNull(trip.getCarType()));
+    }
+    
+    return trip;
+  }
 }
