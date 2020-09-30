@@ -1,9 +1,8 @@
-package com.carparking.commons;
+package main.java.com.carparking.commons;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.carparking.entities.TripEntitty;
-
+import main.java.com.carparking.entities.TripEntitty;
 
 /**
 * TrimUtils.java
@@ -20,24 +19,24 @@ import com.carparking.entities.TripEntitty;
 * 01-04-2020        HaiNV28            Create
 */
 /**
-* @author HaiNV28
-*
-*/
+ * @author HaiNV28
+ *
+ */
 public class TrimUtils {
-    
-    /**
-     * Trim trip.
-     *
-     * @param trip the trip
-     * @return the trip entitty
-     */
-    public static TripEntitty trimTrip(TripEntitty trip) {
-        if(trip != null) {
-            trip.setDestination(StringUtils.trimToNull(trip.getDestination()));
-            trip.setDepartureTime(StringUtils.trimToNull(trip.getDepartureTime()));
-            trip.setDriver(StringUtils.trimToNull(trip.getDriver()));
-            trip.setCarType(StringUtils.trimToNull(trip.getCarType()));
-        }
-        return trip;
-    }
+
+	/**
+	 * Trim trip.
+	 *
+	 * @param trip the trip
+	 * @return the trip entitty
+	 */
+	public static TripEntitty trimTrip(TripEntitty trip) {
+		if (trip != null) {
+			trip.setDestination(StringUtils.trimToNull(trip.getDestination()));
+			trip.setDepartureTime(StringUtils.trimToNull(trip.getDepartureTime()));
+			trip.setDriver(StringUtils.trimToNull(trip.getDriver()));
+			trip.setCarType(StringUtils.trimToNull(trip.getCarType()));
+		}
+		return trip;
+	}
 }

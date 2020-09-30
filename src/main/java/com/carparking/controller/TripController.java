@@ -1,4 +1,4 @@
-package com.carparking.controller;
+package main.java.com.carparking.controller;
 
 import java.util.ArrayList;
 
@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
 
-import com.carparking.entities.TripEntitty;
-import com.carparking.service.TripService;
+import main.java.com.carparking.entities.TripEntitty;
+import main.java.com.carparking.service.TripService;
 
 /**
 * TripController.java

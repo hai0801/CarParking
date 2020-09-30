@@ -1,4 +1,4 @@
-package com.carparking.entities;
+package main.java.com.carparking.entities;
 
 import java.io.Serializable;
 import java.util.Date;

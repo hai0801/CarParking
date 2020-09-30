@@ -1,4 +1,4 @@
-package com.carparking.repositories;
+package main.java.com.carparking.repositories;
 
 import java.util.Date;
 
@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.carparking.entities.TripEntitty;
+import main.java.com.carparking.entities.TripEntitty;
 
 /**
 * TripRepository.java

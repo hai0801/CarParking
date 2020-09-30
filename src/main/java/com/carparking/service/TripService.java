@@ -1,4 +1,4 @@
-package com.carparking.service;
+package main.java.com.carparking.service;
 
 import java.sql.Connection;
 import java.util.Date;
@@ -13,10 +13,11 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.carparking.commons.TrimUtils;
-import com.carparking.entities.TripEntitty;
-import com.carparking.repositories.TripRepository;
 import com.microsoft.sqlserver.jdbc.StringUtils;
+
+import main.java.com.carparking.commons.TrimUtils;
+import main.java.com.carparking.entities.TripEntitty;
+import main.java.com.carparking.repositories.TripRepository;
 
 /**
 * TripService.java
