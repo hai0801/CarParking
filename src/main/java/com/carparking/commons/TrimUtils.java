@@ -1,8 +1,9 @@
-package main.java.com.carparking.commons;
+package com.carparking.commons;
 
 import org.apache.commons.lang3.StringUtils;
 
-import main.java.com.carparking.entities.TripEntitty;
+import com.carparking.entities.TripEntitty;
+
 
 /**
 * TrimUtils.java
